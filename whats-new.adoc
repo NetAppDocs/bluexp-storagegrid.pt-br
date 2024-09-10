@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, storagegrid' 
+summary: Saiba o que há de novo com o gerenciamento de sistemas StorageGRID no BlueXP . 
+---
+= Novidades no gerenciamento do StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Saiba o que há de novo com o gerenciamento de sistemas StorageGRID no BlueXP .
+
+
+
+== 7 de agosto de 2024
+
+
+
+=== Nova vista avançada
+
+A partir do StorageGRID 11,8, você pode usar a interface familiar do Gerenciador de Grade para gerenciar seu sistema StorageGRID a partir do BlueXP .
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["Saiba como administrar o StorageGRID usando a exibição avançada"].
+
+
+
+=== Capacidade de analisar e aprovar o certificado da interface de gerenciamento do StorageGRID
+
+Agora você pode analisar e aprovar um certificado de interface de gerenciamento do StorageGRID ao descobrir o sistema StorageGRID do BlueXP . Você também pode revisar e aprovar o certificado de interface de gerenciamento StorageGRID mais recente em uma grade descoberta.
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["Saiba como analisar e aprovar o certificado do servidor durante a descoberta do sistema."]
+
+
+
+== 18 de setembro de 2022
+
+
+
+=== Suporte para StorageGRID
+
+Agora você pode descobrir seus sistemas StorageGRID diretamente da BlueXP . Ao descobrir o StorageGRID, você obtém uma visão completa dos dados na multicloud híbrida.

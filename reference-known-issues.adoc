@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: reference-known-issues.html 
+keywords: issues, known issues, bugs, errors 
+summary: Problemas conhecidos identificam problemas que podem impedi-lo de usar esta versão do produto com sucesso. 
+---
+= Problemas conhecidos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Problemas conhecidos identificam problemas que podem impedi-lo de usar esta versão do produto com sucesso.
+
+
+
+== Os nomes de exibição atualizados não aparecem no BlueXP 
+
+Se você usar o procedimento de renomeação para definir um novo nome de exibição para um site ou grade, o novo nome de exibição não será refletido no ambiente de trabalho do BlueXP . O ambiente de trabalho continua a mostrar o nome do sistema e não o novo nome de exibição.
+
+
+
+== Erro ao filtrar alertas
+
+Ao usar a exibição avançada, filtrar o conteúdo da página Alertas resulta em um erro.
+
+
+
+== Erro ao editar a conexão de federação de grade
+
+Ao usar a exibição avançada, você pode encontrar um erro de tempo limite do gateway ao editar uma conexão de federação de grade.

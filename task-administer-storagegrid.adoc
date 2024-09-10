@@ -1,0 +1,136 @@
+---
+sidebar: sidebar 
+permalink: task-administer-storagegrid.html 
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
+summary: Administrar um sistema StorageGRID do BlueXP  usando a exibição avançada. Essa exibição permite que você use o Gerenciador de Grade no ambiente de trabalho do StorageGRID. 
+---
+= Administrar o StorageGRID usando a exibição avançada
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Administrar um sistema StorageGRID do BlueXP  usando a exibição avançada. Essa exibição permite que você use o Gerenciador de Grade no ambiente de trabalho do StorageGRID.
+
+
+
+== Configurações compatíveis
+
+O Gerenciador de grade está disponível no BlueXP  a partir do StorageGRID 11,8.
+
+
+
+== Limitações
+
+As seguintes operações do Gerenciador de Grade não estão disponíveis no BlueXP . Se você precisar executar essas operações, entre diretamente no Gerenciador de Grade.
+
+[cols="1a,2a"]
+|===
+| Menu Grid Manager (Gestor de grelha) | Operações não disponíveis no BlueXP  
+
+
+ a| 
+Utilizador
+ a| 
+* Link de saída
+* Link de documentação da API
+* Alterar palavra-passe
+
+
+
+
+ a| 
+Nós
+ a| 
+* Não é possível acessar o Gerenciador do sistema do SANtricity a partir da guia nós > Gerenciador do sistema do SANtricity.
+* Ao visualizar alertas, talvez você não consiga selecionar todos os links nas ações recomendadas. Por exemplo, links que vão para páginas não suportadas do Gerenciador de Grade não funcionarão.
+
+
+
+
+ a| 
+Inquilinos
+ a| 
+Você não pode entrar em uma conta de locatário a partir do assistente criar um locatário ou da página de locatários.
+
+No momento, o BlueXP  não oferece suporte ao Gerente do Locatário. Embora você possa criar novas contas de locatário a partir do BlueXP , os usuários não podem entrar em suas contas a partir do BlueXP .
+
+
+
+ a| 
+ILM
+ a| 
+Ligação das classes de armazenamento
+
+
+
+ a| 
+Configuração
+ a| 
+* Senhas de grade
+* Classificação de tráfego > métricas
+* Definições de segurança > tempo limite de inatividade do browser
+* Logon único
+* Agente SNMP > arquivo MIB para interface BMC
+
+
+
+
+ a| 
+Manutenção
+ a| 
+* Pacote de recuperação
+* Atualização de software
+
+
+
+
+ a| 
+Suporte
+ a| 
+* Topologia de grade
+* Registos
+* Métricas, incluindo todos os links para métricas do Prometheus e painéis do Grafana de outros lugares na IU.
+* Todas as opções para alarmes legados
+* Custo da ligação
+* Entidades NMS
+
+
+|===
+
+
+== Mude para a vista avançada
+
+Abra um ambiente de trabalho do StorageGRID e selecione a opção de visualização avançada.
+
+.Passos
+. Na página Canvas, abra o ambiente de trabalho do StorageGRID.
+. No canto superior direito, selecione *mudar para visualização avançada*.
++
+image:screenshot-advanced-view.png["Uma captura de tela de um ambiente de trabalho do StorageGRID que mostra a opção alternar para visualização avançada."]
+
+. Use o Gerenciador de Grade para gerenciar o sistema StorageGRID.
++
+Uma diferença que você deve estar ciente é que o menu Ajuda no Gerenciador de Grade foi substituído pelo seguinte menu:
+
++
+image:advanced-view-menu.png["Uma captura de tela de um ambiente de trabalho do StorageGRID onde um menu de ação está disponível no canto superior direito da tela."]
+
++
+Todas as mesmas opções de ajuda estão disponíveis neste menu, exceto para o link de documentação da API.
+
+. Se necessário, selecione mudar para a vista padrão para regressar à vista padrão através do BlueXP .
++
+image:screenshot-standard-view.png["Uma captura de tela de um ambiente de trabalho do StorageGRID que mostra a opção alternar para a visualização padrão."]
+
+
+
+
+
+== Obtenha ajuda com o Grid Manager
+
+Se precisar de ajuda para usar o Grid Manager, https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["Documentação do StorageGRID"^] consulte para obter instruções passo a passo.

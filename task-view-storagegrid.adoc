@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task-view-storagegrid.html 
+keywords: storagegrid, cluster, view, alerts, nodes, tenants, capacity, used capacity, free capacity, system ID, domain, IP, object data used, object metadata used, cpu usage, quota utilization, quota 
+summary: Depois de descobrir os sistemas StorageGRID, você poderá visualizar detalhes sobre a distribuição de capacidade e os alertas, nós e locatários associados. 
+---
+= Veja seus sistemas StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Depois de descobrir os sistemas StorageGRID, você poderá visualizar detalhes sobre a distribuição de capacidade e os alertas, nós e locatários associados.
+
+.Passos
+. No menu de navegação, selecione *Storage > Canvas*.
+. Na página tela, selecione o ambiente de trabalho do StorageGRID que você deseja exibir.
+. Selecione qualquer um dos separadores para ver mais detalhes sobre o seu sistema StorageGRID:
++
+** *Visão geral*: Uma visão detalhada da distribuição de capacidade do sistema (capacidade usada e livre), o número de alertas do sistema, nós e locatários e muito mais.
++
+image:screenshot-overview.png["Uma captura de tela da guia Visão geral em um ambiente de trabalho do StorageGRID."]
+
+** *Alertas*: Um resumo dos alertas do sistema, que inclui alertas ativos, alertas resolvidos e alertas silenciados.
+** * Nós*: Detalhes sobre o nó de administrador, nó de gateway de API e nós de storage. Isso inclui porcentagens para dados de objeto usados, metadados de objeto usados e uso da CPU.
++
+image:screenshot-nodes.png["Uma captura de tela da guia nós em um ambiente de trabalho do StorageGRID."]
+
+** *Inquilinos*: Principais detalhes sobre locatários, que incluem espaço lógico usado, utilização de cotas, cota e contagem de objetos.
++
+image:screenshot-tenants.png["Uma captura de tela da guia locatários em um ambiente de trabalho do StorageGRID."]
+
+
+
+

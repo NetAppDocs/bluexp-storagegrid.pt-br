@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task-enable-data-services.html 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid 
+summary: Depois de descobrir um sistema StorageGRID no BlueXP , você pode usar os serviços de dados do NetApp para backups, categorização de dados e sincronização de dados. 
+---
+= Use os serviços de dados do NetApp com o StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Depois de descobrir um sistema StorageGRID no BlueXP , você pode usar os serviços de dados do NetApp para backups, categorização de dados e sincronização de dados.
+
+* Use o backup e a recuperação do BlueXP  para fazer backup dos dados de sistemas ONTAP locais para storage de objetos nos sistemas NetApp StorageGRID.
++
+Para começar, vá para a tela BlueXP  e arraste e solte um ambiente de trabalho ONTAP no ambiente de trabalho do StorageGRID no local.
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["Saiba mais sobre como fazer backup de dados do ONTAP no local para o StorageGRID"^]
+
+* Use a disposição em camadas do BlueXP  para categorizar automaticamente os dados inativos de clusters ONTAP on-premises para o StorageGRID.
++
+Para começar, vá para a tela BlueXP  e arraste e solte um ambiente de trabalho ONTAP no ambiente de trabalho do StorageGRID no local.
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["Saiba mais sobre a disposição em camadas de dados de clusters ONTAP no local para o StorageGRID"^]
+
+* Use a cópia e a sincronização do BlueXP  para sincronizar dados de ou para um sistema StorageGRID.
++
+Para começar, vá para a tela BlueXP  e arraste e solte o ambiente de trabalho de origem no ambiente de trabalho de destino. O StorageGRID pode ser a origem ou o destino.
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["Saiba mais sobre cópia e sincronização do BlueXP"^]
+
+

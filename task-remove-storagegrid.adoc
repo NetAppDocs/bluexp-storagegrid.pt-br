@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task-remove-storagegrid.html 
+keywords: storagegrid, cluster, remove, delete, remove storagegrid, delete cluster, delete working environment, remove working environment 
+summary: Remova um ambiente de trabalho do StorageGRID se você não quiser mais gerenciá-lo do BlueXP . 
+---
+= Remova um ambiente de trabalho do StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Remova um ambiente de trabalho do StorageGRID se você não quiser mais gerenciá-lo do BlueXP .
+
+Remover o ambiente de trabalho não afeta o sistema StorageGRID. Você pode reencontrá-lo de BlueXP  a qualquer momento.
+
+.Passos
+. No menu de navegação, selecione *Storage > Canvas*.
+. Na página Canvas, abra o ambiente de trabalho do StorageGRID.
+. Na visualização padrão, selecione o ícone do menu e selecione *Remover do espaço de trabalho*.
++
+image:screenshot-remove.png["Uma captura de tela da opção Remover do espaço de trabalho que está disponível no menu superior direito do ambiente de trabalho."]
+
+. Selecione *Remover* para confirmar.
+
