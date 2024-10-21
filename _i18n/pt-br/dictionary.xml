@@ -87,7 +87,6 @@
   <block id="d85b01f001ee16ebd8eb1917c739d824" category="doc">Descubra os sistemas StorageGRID</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Antes de começar</block>
   <block id="4c6a9048ac276eb9391ebe2abd8e0c0d" category="paragraph">Você precisa do seguinte:</block>
-  <block id="031f2c2a8e686936eab9e36e2d0d5c66" category="list-text">Um conetor instalado em um provedor de nuvem ou em suas instalações, com conetividade de rede ao sistema StorageGRID.</block>
   <block id="013d29d39e390d6b894eaf54e5b91328" category="inline-link">Saiba mais sobre conetores e como criar um</block>
   <block id="30e1f00c72b63f8042f24c3558ddb8e3" category="paragraph"><block ref="30e1f00c72b63f8042f24c3558ddb8e3" category="inline-link-rx"></block></block>
   <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">O nome de domínio ou endereço IP do nó de administrador.</block>
@@ -363,4 +362,6 @@
   <block id="fb6e1263028aaf83a98c38f91ee467e9" category="sidebar">Ver e atualizar certificados StorageGRID</block>
   <block id="a9e825fa00a6490b83a7ab53e320af9a" category="sidebar">Remova um ambiente de trabalho</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conhecimento e apoio</block>
+  <block id="812698067d3edfc405bb07423d81be18" category="list-text">Um conetor executando a versão 3.9.43 ou posterior com conetividade de rede ao sistema StorageGRID.</block>
+  <block id="9c0e98fb28f894724e92772753a585bc" category="paragraph">O conector pode residir na nuvem ou no local. Ele só precisa de uma conexão de rede para o sistema StorageGRID.</block>
 </blocks>

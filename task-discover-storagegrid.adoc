@@ -19,7 +19,10 @@ Descubra os sistemas StorageGRID em seu ambiente local e gerencie-os diretamente
 .Antes de começar
 Você precisa do seguinte:
 
-* Um conetor instalado em um provedor de nuvem ou em suas instalações, com conetividade de rede ao sistema StorageGRID.
+* Um conetor executando a versão 3.9.43 ou posterior com conetividade de rede ao sistema StorageGRID.
++
+O conector pode residir na nuvem ou no local. Ele só precisa de uma conexão de rede para o sistema StorageGRID.
+
 +
 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Saiba mais sobre conetores e como criar um"^]
 
