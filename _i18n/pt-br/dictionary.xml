@@ -362,6 +362,7 @@
   <block id="fb6e1263028aaf83a98c38f91ee467e9" category="sidebar">Ver e atualizar certificados StorageGRID</block>
   <block id="a9e825fa00a6490b83a7ab53e320af9a" category="sidebar">Remova um ambiente de trabalho</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conhecimento e apoio</block>
-  <block id="812698067d3edfc405bb07423d81be18" category="list-text">Um conetor executando a versão 3.9.43 ou posterior com conetividade de rede ao sistema StorageGRID.</block>
   <block id="9c0e98fb28f894724e92772753a585bc" category="paragraph">O conector pode residir na nuvem ou no local. Ele só precisa de uma conexão de rede para o sistema StorageGRID.</block>
+  <block id="db188d9c1fa3be7f6644057e551033c7" category="list-text">Uma nova instalação do conetor utilizando a versão 3.9.43 ou posterior.</block>
+  <block id="dc8d4eccfd0e6edfd9b12eab22e1dda9" category="list-text">Conetividade de rede do conetor para o sistema StorageGRID.</block>
 </blocks>

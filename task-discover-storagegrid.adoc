@@ -19,7 +19,8 @@ Descubra os sistemas StorageGRID em seu ambiente local e gerencie-os diretamente
 .Antes de começar
 Você precisa do seguinte:
 
-* Um conetor executando a versão 3.9.43 ou posterior com conetividade de rede ao sistema StorageGRID.
+* Uma nova instalação do conetor utilizando a versão 3.9.43 ou posterior.
+* Conetividade de rede do conetor para o sistema StorageGRID.
 +
 O conector pode residir na nuvem ou no local. Ele só precisa de uma conexão de rede para o sistema StorageGRID.
 
