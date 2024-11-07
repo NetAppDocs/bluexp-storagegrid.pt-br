@@ -1,0 +1,19 @@
+= Nova vista avançada
+:allow-uri-read: 
+
+
+
+
+=== Nova vista avançada
+
+A partir do StorageGRID 11,8, você pode usar a interface familiar do Gerenciador de Grade para gerenciar seu sistema StorageGRID a partir do BlueXP .
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["Saiba como administrar o StorageGRID usando a exibição avançada"].
+
+
+
+=== Capacidade de analisar e aprovar o certificado da interface de gerenciamento do StorageGRID
+
+Agora você pode analisar e aprovar um certificado de interface de gerenciamento do StorageGRID ao descobrir o sistema StorageGRID do BlueXP . Você também pode revisar e aprovar o certificado de interface de gerenciamento StorageGRID mais recente em uma grade descoberta.
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["Saiba como analisar e aprovar o certificado do servidor durante a descoberta do sistema."]
