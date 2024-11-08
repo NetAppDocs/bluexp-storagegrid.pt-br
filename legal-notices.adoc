@@ -47,4 +47,6 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 Os arquivos de aviso fornecem informações sobre direitos autorais de terceiros e licenças usadas no software NetApp.
 
-https://docs.netapp.com/us-en/bluexp-setup-admin/media/notice.pdf["Aviso para BlueXP"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/media/notice.pdf["Aviso para BlueXP"^]
+* link:media/notice.pdf["Aviso para o gerenciamento de BlueXP  de sistemas StorageGRID"^]
+

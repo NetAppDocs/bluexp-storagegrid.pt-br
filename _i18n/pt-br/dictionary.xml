@@ -365,4 +365,6 @@
   <block id="9c0e98fb28f894724e92772753a585bc" category="paragraph">O conector pode residir na nuvem ou no local. Ele só precisa de uma conexão de rede para o sistema StorageGRID.</block>
   <block id="db188d9c1fa3be7f6644057e551033c7" category="list-text">Uma nova instalação do conetor utilizando a versão 3.9.43 ou posterior.</block>
   <block id="dc8d4eccfd0e6edfd9b12eab22e1dda9" category="list-text">Conetividade de rede do conetor para o sistema StorageGRID.</block>
+  <block id="4e6cac25727040c5c5bd57e5c5555bec" category="inline-link-macro">Aviso para o gerenciamento de BlueXP  de sistemas StorageGRID</block>
+  <block id="6da0afd2bb3a5e61128a9818c9a173e9" category="list-text"><block ref="6da0afd2bb3a5e61128a9818c9a173e9" category="inline-link-macro-rx"></block></block>
 </blocks>
