@@ -16,6 +16,9 @@ summary: Remova um ambiente de trabalho do StorageGRID se você não quiser mais
 [role="lead"]
 Remova um ambiente de trabalho do StorageGRID se você não quiser mais gerenciá-lo do BlueXP .
 
+.Função BlueXP necessária:
+Administrador da organização, administrador da pasta ou do projeto ou administrador do armazenamento. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do BlueXP."^]
+
 Remover o ambiente de trabalho não afeta o sistema StorageGRID. Você pode reencontrá-lo de BlueXP  a qualquer momento.
 
 .Passos

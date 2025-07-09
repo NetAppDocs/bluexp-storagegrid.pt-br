@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-enable-data-services.html 
-keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid, tiering 
 summary: Depois de descobrir um sistema StorageGRID no BlueXP , você pode usar os serviços de dados do NetApp para backups, categorização de dados e sincronização de dados. 
 ---
 = Use os serviços de dados do NetApp com o StorageGRID

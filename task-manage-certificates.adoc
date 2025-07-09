@@ -16,6 +16,9 @@ summary: Como os certificados podem expirar, você pode ocasionalmente precisar 
 [role="lead"]
 É necessário um certificado de interface de gerenciamento no sistema StorageGRID antes de descobrir o sistema do BlueXP . O certificado fornece uma conexão segura entre o BlueXP  e o StorageGRID. Como os certificados podem expirar, você pode ocasionalmente precisar exibir o status ou atualizar um certificado.
 
+.Função BlueXP necessária:
+Administrador da organização, administrador da pasta ou do projeto ou administrador do armazenamento. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do BlueXP."^]
+
 
 
 == Exibir o status de um certificado de interface de gerenciamento

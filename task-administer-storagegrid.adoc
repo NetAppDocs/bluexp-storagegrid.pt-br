@@ -4,7 +4,7 @@ permalink: task-administer-storagegrid.html
 keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
 summary: Administrar um sistema StorageGRID do BlueXP  usando a exibição avançada. Essa exibição permite que você use o Gerenciador de Grade no ambiente de trabalho do StorageGRID. 
 ---
-= Administrar o StorageGRID usando a exibição avançada
+= Administrar o StorageGRID usando o Grid Manager no BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -15,6 +15,9 @@ summary: Administrar um sistema StorageGRID do BlueXP  usando a exibição avan
 
 [role="lead"]
 Administrar um sistema StorageGRID do BlueXP  usando a exibição avançada. Essa exibição permite que você use o Gerenciador de Grade no ambiente de trabalho do StorageGRID.
+
+.Função BlueXP necessária:
+Administrador da organização, administrador de pasta ou projeto, administrador de armazenamento ou especialista em integridade do sistema. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do BlueXP."^]
 
 
 

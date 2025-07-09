@@ -16,6 +16,9 @@ summary: Depois de descobrir os sistemas StorageGRID, você poderá visualizar d
 [role="lead"]
 Depois de descobrir os sistemas StorageGRID, você poderá visualizar detalhes sobre a distribuição de capacidade e os alertas, nós e locatários associados.
 
+.Função BlueXP necessária:
+Administrador da organização, administrador de pasta ou projeto, administrador de armazenamento ou especialista em integridade do sistema. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do BlueXP."^]
+
 .Passos
 . No menu de navegação, selecione *Storage > Canvas*.
 . Na página tela, selecione o ambiente de trabalho do StorageGRID que você deseja exibir.

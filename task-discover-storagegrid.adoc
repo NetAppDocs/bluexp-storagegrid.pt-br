@@ -16,17 +16,13 @@ summary: Descubra os sistemas StorageGRID em seu ambiente local e gerencie-os di
 [role="lead"]
 Descubra os sistemas StorageGRID em seu ambiente local e gerencie-os diretamente do BlueXP  usando o Gerenciador de Grade.
 
+.Função BlueXP necessária:
+Administrador da organização, administrador de pasta ou projeto, administrador de armazenamento ou especialista em integridade do sistema. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do BlueXP."^]
+
 .Antes de começar
 Você precisa do seguinte:
 
-* Uma nova instalação do conetor utilizando a versão 3.9.43 ou posterior.
-* Conetividade de rede do conetor para o sistema StorageGRID.
-+
-O conector pode residir na nuvem ou no local. Ele só precisa de uma conexão de rede para o sistema StorageGRID.
-
-+
-https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Saiba mais sobre conetores e como criar um"^]
-
+* Um Conector usando a versão 3.9.43 ou posterior. Você precisa ter a função de administrador da organização para instalar um Conector. Se você não sabe se sua organização possui um Conector ou se precisa criar um, entre em contato com o administrador do BlueXP .  https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["Entre em contato com o administrador da sua organização."^]
 * O nome de domínio ou endereço IP do nó de administrador.
 * Credenciais de administrador para o nó de administrador.
 * Um certificado de interface de gerenciamento instalado no sistema StorageGRID.
@@ -36,13 +32,9 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 
 
 .Passos
-. No menu de navegação BlueXP , selecione *armazenamento > tela*.
+. No menu de navegação, selecione *Storage > Canvas*.
 . Selecione *Adicionar ambiente de trabalho* e selecione *no local*.
 . Ao lado de *StorageGRID*, selecione *Discover*.
-. Se você for solicitado, crie um conetor.
-+
-Consulte o link acima para obter mais detalhes.
-
 . Na página _Detalhes do cluster do StorageGRID_ no BlueXP , insira o nome de domínio ou o endereço IP do nó de administração, as credenciais do nó e selecione *Adicionar*.
 +
 image:screenshot-cluster-details.png["Uma captura de tela que mostra a página Detalhes do cluster do StorageGRID onde você insere o nome de domínio ou endereço IP do nó de administrador e as credenciais."]
@@ -51,7 +43,7 @@ image:screenshot-cluster-details.png["Uma captura de tela que mostra a página D
 +
 image:screenshot-bluexp-approve-certificate.png["Uma captura de tela que mostra a tela aprovar certificado que aparece durante a descoberta de um sistema StorageGRID"]
 
-. Se pretender utilizar um certificado diferente do apresentado, tem de o configurar primeiro no sistema StorageGRID.
+. Para usar um certificado diferente, primeiro configure-o no seu sistema StorageGRID .
 +
 .. No seu sistema StorageGRID local, siga as instruções: https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Instalação de um certificado de interface de gerenciamento no StorageGRID"^].
 .. Depois de configurar o certificado no sistema StorageGRID, selecione *Cancelar* na página _aprovar certificado_ no BlueXP .
@@ -63,7 +55,7 @@ image:screenshot-bluexp-approve-certificate.png["Uma captura de tela que mostra 
 +
 .. Selecione *Approve Certificate* (aprovar certificado) para usar o certificado.
 +
-É apresentada uma mensagem de sucesso. Toda a comunicação entre o servidor StorageGRID e o conetor BlueXP  será protegida pela verificação do certificado aprovado.
+O BlueXP exibe uma mensagem de sucesso e protege toda a comunicação entre o servidor StorageGRID e o conector BlueXP verificando o certificado aprovado.
 
 .. Selecione *Cancelar* para terminar o processo de descoberta sem verificar o certificado.
 +
